@@ -19,24 +19,34 @@ This project is an E-commerce website developed using Django framework, Python, 
 1. Clone the repository to your local machine.
 2. Create a virtual environment:
     
+    ```
     python3 -m venv myenv
+   ```
     
-3. Activate the virtual environment:
+4. Activate the virtual environment:
     - On Windows:
         
+        ```
         myenv\Scripts\activate
+        ```
         
     - On macOS and Linux:
         
-        source myenv/bin/activate
+       ```
+       source myenv/bin/activate
+       ```
         
-4. Install Django and other dependencies:
+5. Install Django and other dependencies:
     
+    ```
     pip install -r requirements.txt
+    ```
     
-5. Start the development server:
+6. Start the development server:
     
+    ```
     python manage.py runserver
+    ```
     
 7. Access the website through your browser at [http://localhost:8000](http://localhost:8000).
 
